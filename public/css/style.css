@@ -1,0 +1,46 @@
+body {
+    background-color: #f6f6ee;
+    color: #333333;
+    font-family: Baskerville, ‘Times New Roman’, Times, serif;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 26px;
+    color: #036564;
+    margin: 8px;
+}
+
+p {
+    margin: 6px;
+}
+
+.container {
+    background-color: #fcfcfc;
+    margin: 32px auto;
+    width: 800px;
+    padding: 16px;
+    text-align: center;
+}
+
+.shift {
+    padding: 8px;
+    margin-bottom: 8px;
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .container {
+        width: 480px;
+    }
+}
